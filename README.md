@@ -4,6 +4,8 @@ Six AI models get the same job: design a paper plane, see how far it flies in a 
 
 ![Results](charts/hero.png)
 
+![How fast each model learned](charts/learning_curves_light.png)
+
 **Early results from a simulation only.** The planes have not been folded or thrown for real.
 
 ## The test
