@@ -1,0 +1,753 @@
+{
+ "backend": "llm",
+ "model": "gpt-6.1-sol",
+ "run": 2,
+ "blind": false,
+ "attempts": [
+  {
+   "i": 1,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 25,
+    "keel_rear_mm": 25,
+    "winglet_mm": 5,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Start with a broad-wing Nakamura-style glider and mild upward elevator to establish a stable baseline."
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.54420653959409,
+    "throws": [
+     5.58,
+     5.44,
+     5.54,
+     5.32,
+     5.91
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.07,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 261.8,
+     "span_mm": 150,
+     "aspect_ratio": 0.86,
+     "static_margin": 0.235,
+     "roll_stable": true
+    }
+   },
+   "best": 5.54420653959409,
+   "secs": 10.8
+  },
+  {
+   "i": 2,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Reduce keel depth and winglets to increase lifting span and reduce drag while preserving the baseline trim."
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.99261790291138,
+    "throws": [
+     6.08,
+     5.94,
+     5.99,
+     5.82,
+     6.4
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.18,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 318.6,
+     "span_mm": 180,
+     "aspect_ratio": 1.02,
+     "static_margin": 0.218,
+     "roll_stable": true
+    }
+   },
+   "best": 5.99261790291138,
+   "secs": 8.7
+  },
+  {
+   "i": 3,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 6,
+    "rationale": "Increase upward elevator to test whether stronger pitch support extends the glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.3559361437163435,
+    "throws": [
+     6.41,
+     6.25,
+     6.36,
+     6.14,
+     6.76
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.32,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 318.6,
+     "span_mm": 180,
+     "aspect_ratio": 1.02,
+     "static_margin": 0.218,
+     "roll_stable": true
+    }
+   },
+   "best": 6.3559361437163435,
+   "secs": 10.0
+  },
+  {
+   "i": 4,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 25,
+    "dihedral_deg": 6,
+    "rationale": "Increase elevator deflection to test whether additional pitch support improves distance before stalls develop."
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.301826868364519,
+    "throws": [
+     6.3,
+     6.1,
+     6.32,
+     6.08,
+     6.61
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.57,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 318.6,
+     "span_mm": 180,
+     "aspect_ratio": 1.02,
+     "static_margin": 0.218,
+     "roll_stable": true
+    }
+   },
+   "best": 6.3559361437163435,
+   "secs": 7.0
+  },
+  {
+   "i": 5,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 30,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 6,
+    "rationale": "Shorten the nose fold to test its effect on balance and wing area, using the best elevator setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 7.254691866969218,
+    "throws": [
+     7.39,
+     7.25,
+     7.2,
+     7.15,
+     7.73
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.89,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 372.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.87,
+     "static_margin": 0.162,
+     "roll_stable": true
+    }
+   },
+   "best": 7.254691866969218,
+   "secs": 9.0
+  },
+  {
+   "i": 6,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 6,
+    "rationale": "Remove the tip fold to test whether further increasing wing area extends the glide at the best elevator setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.830266022312713,
+    "throws": [
+     5.89,
+     5.77,
+     5.83,
+     5.63,
+     6.25
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.15,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 273.9,
+     "span_mm": 180,
+     "aspect_ratio": 1.18,
+     "static_margin": 0.248,
+     "roll_stable": true
+    }
+   },
+   "best": 7.254691866969218,
+   "secs": 6.3
+  },
+  {
+   "i": 7,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 10,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 6,
+    "rationale": "Try a small positive tip fold to retain the broad wing geometry while reducing nose-fold length."
+   },
+   "result": {
+    "valid": false,
+    "error": "a nose fold pushes paper past the centre crease",
+    "distance": 0.0
+   },
+   "best": 7.254691866969218,
+   "secs": 9.1
+  },
+  {
+   "i": 8,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 30,
+    "nose_folds_2": 1,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Return to the best nose geometry and reduce elevator deflection to test whether lower drag improves its glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.968731980764272,
+    "throws": [
+     7.08,
+     6.97,
+     6.87,
+     6.83,
+     7.4
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.75,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 372.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.87,
+     "static_margin": 0.162,
+     "roll_stable": true
+    }
+   },
+   "best": 7.254691866969218,
+   "secs": 9.2
+  },
+  {
+   "i": 9,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 6,
+    "rationale": "Test a basic broad-wing design to see whether removing the extra nose folds improves lift and glide distance."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.896391444501237,
+    "throws": [
+     9.14,
+     8.81,
+     8.86,
+     8.9,
+     9.45
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.51,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.896391444501237,
+   "secs": 10.2
+  },
+  {
+   "i": 10,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 25,
+    "dihedral_deg": 6,
+    "rationale": "Increase elevator deflection on the best broad-wing design to test whether stronger pitch support extends its glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.434109245100952,
+    "throws": [
+     8.43,
+     7.99,
+     8.45,
+     8.26,
+     8.65
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.7,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.896391444501237,
+   "secs": 7.1
+  },
+  {
+   "i": 11,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Reduce elevator deflection on the broad-wing design to locate its best balance between lift and drag."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.603330180036675,
+    "throws": [
+     8.81,
+     8.6,
+     8.41,
+     8.55,
+     9.14
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.46,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.896391444501237,
+   "secs": 10.4
+  },
+  {
+   "i": 12,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 10,
+    "dihedral_deg": 6,
+    "rationale": "Test a wider elevator at a smaller angle to improve pitch support with less deflection."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.375199854963554,
+    "throws": [
+     9.38,
+     8.43,
+     10.05,
+     9.12,
+     9.67
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.23,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.375199854963554,
+   "secs": 13.5
+  },
+  {
+   "i": 13,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 30,
+    "elevator_deg": 7,
+    "dihedral_deg": 6,
+    "rationale": "Widen the elevator and reduce its angle to test whether similar pitch support with gentler deflection extends the glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.344374748746644,
+    "throws": [
+     8.43,
+     6.7,
+     9.32,
+     8.34,
+     8.13
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.24,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.375199854963554,
+   "secs": 9.7
+  },
+  {
+   "i": 14,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 8,
+    "dihedral_deg": 6,
+    "rationale": "Return to the best elevator width and slightly reduce its angle to improve glide speed and consistency."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.800768322082423,
+    "throws": [
+     9.8,
+     8.84,
+     10.44,
+     9.48,
+     10.18
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.15,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.800768322082423,
+   "secs": 10.1
+  },
+  {
+   "i": 15,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 8,
+    "dihedral_deg": 12,
+    "rationale": "Increase dihedral to improve roll stability during the longer glide while retaining the best elevator setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.810333593697695,
+    "throws": [
+     9.81,
+     8.86,
+     10.45,
+     9.49,
+     10.19
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.15,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.810333593697695,
+   "secs": 8.7
+  },
+  {
+   "i": 16,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 6,
+    "dihedral_deg": 12,
+    "rationale": "Reduce elevator angle to test whether a faster glide improves distance with the best elevator width."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.915496966680198,
+    "throws": [
+     9.92,
+     9.04,
+     10.37,
+     9.55,
+     10.36
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.96,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.915496966680198,
+   "secs": 7.0
+  },
+  {
+   "i": 17,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 4,
+    "dihedral_deg": 12,
+    "rationale": "Reduce elevator angle another two degrees to locate the peak in glide distance."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.652997631233463,
+    "throws": [
+     9.65,
+     8.98,
+     9.79,
+     9.3,
+     10.1
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.68,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.915496966680198,
+   "secs": 9.7
+  },
+  {
+   "i": 18,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 25,
+    "elevator_deg": 4.5,
+    "dihedral_deg": 12,
+    "rationale": "Test a 25 mm elevator at a gentler angle to improve on the best balance of pitch support and glide speed."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.975577111843162,
+    "throws": [
+     9.98,
+     9.01,
+     10.56,
+     9.6,
+     10.44
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.04,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.975577111843162,
+   "secs": 11.2
+  },
+  {
+   "i": 19,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 25,
+    "elevator_deg": 5.5,
+    "dihedral_deg": 12,
+    "rationale": "Slightly increase the 25 mm elevator angle to test whether additional pitch support improves the best glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.911069364700035,
+    "throws": [
+     9.91,
+     8.89,
+     10.62,
+     9.56,
+     10.33
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.17,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.975577111843162,
+   "secs": 12.7
+  },
+  {
+   "i": 20,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 30,
+    "elevator_deg": 3.5,
+    "dihedral_deg": 12,
+    "rationale": "Test a wider elevator at a gentler angle to improve glide efficiency near the best trim."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.996661172365217,
+    "throws": [
+     10.0,
+     8.99,
+     10.65,
+     9.61,
+     10.46
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.07,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 9.996661172365217,
+   "secs": 11.5
+  }
+ ],
+ "best": 9.996661172365217
+}

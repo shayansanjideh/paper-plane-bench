@@ -1,0 +1,713 @@
+{
+ "backend": "random",
+ "model": null,
+ "run": 4,
+ "blind": false,
+ "attempts": [
+  {
+   "i": 1,
+   "design": {
+    "nose_folds_1": 1.0,
+    "tip_fold_mm": 15.62,
+    "nose_folds_2": 0.14,
+    "keel_front_mm": 33.55,
+    "keel_rear_mm": 51.55,
+    "winglet_mm": 33.48,
+    "elevator_mm": 5.02,
+    "elevator_deg": 5.22,
+    "dihedral_deg": -0.4
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.136314273447805,
+    "throws": [
+     6.27,
+     6.14,
+     6.08,
+     6.01,
+     6.6
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.47,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 161.7,
+     "span_mm": 66,
+     "aspect_ratio": 0.27,
+     "static_margin": 0.084,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 2,
+   "design": {
+    "nose_folds_1": 1.82,
+    "tip_fold_mm": 77.01,
+    "nose_folds_2": 0.21,
+    "keel_front_mm": 8.04,
+    "keel_rear_mm": 41.87,
+    "winglet_mm": 12.99,
+    "elevator_mm": 38.61,
+    "elevator_deg": 15.08,
+    "dihedral_deg": 16.49
+   },
+   "result": {
+    "valid": true,
+    "distance": 4.568925569062462,
+    "throws": [
+     4.57,
+     4.35,
+     4.74,
+     4.6,
+     4.5
+    ],
+    "log": "stalled at 0.7 s, nose-dived at 0.9 s",
+    "flight_time": 2.15,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 208.0,
+     "span_mm": 112,
+     "aspect_ratio": 0.6,
+     "static_margin": 0.179,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 3,
+   "design": {
+    "nose_folds_1": 2.0,
+    "tip_fold_mm": 92.46,
+    "nose_folds_2": 0.75,
+    "keel_front_mm": 42.7,
+    "keel_rear_mm": 34.23,
+    "winglet_mm": 3.5,
+    "elevator_mm": 1.43,
+    "elevator_deg": 15.42,
+    "dihedral_deg": 13.72
+   },
+   "result": {
+    "valid": true,
+    "distance": 3.8503498358570956,
+    "throws": [
+     3.85,
+     3.76,
+     3.88,
+     3.65,
+     4.12
+    ],
+    "log": "nose-dived at 0.7 s",
+    "flight_time": 0.79,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 154.7,
+     "span_mm": 134,
+     "aspect_ratio": 1.16,
+     "static_margin": 0.426,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 4,
+   "design": {
+    "nose_folds_1": 1.44,
+    "tip_fold_mm": 25.61,
+    "nose_folds_2": 0.8,
+    "keel_front_mm": 15.85,
+    "keel_rear_mm": 75.19,
+    "winglet_mm": 32.21,
+    "elevator_mm": 24.45,
+    "elevator_deg": -4.86,
+    "dihedral_deg": 4.44
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.105389672282865,
+    "throws": [
+     5.18,
+     5.09,
+     5.11,
+     4.95,
+     5.46
+    ],
+    "log": "smooth glide",
+    "flight_time": 0.95,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 150.4,
+     "span_mm": 64,
+     "aspect_ratio": 0.27,
+     "static_margin": 0.12,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 5,
+   "design": {
+    "nose_folds_1": 1.03,
+    "tip_fold_mm": 103.92,
+    "nose_folds_2": 0.74,
+    "keel_front_mm": 12.29,
+    "keel_rear_mm": 44.68,
+    "winglet_mm": 13.24,
+    "elevator_mm": 21.05,
+    "elevator_deg": 6.93,
+    "dihedral_deg": 6.67
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.976186882654673,
+    "throws": [
+     5.98,
+     5.57,
+     6.29,
+     5.6,
+     6.48
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.27,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 174.5,
+     "span_mm": 122,
+     "aspect_ratio": 0.85,
+     "static_margin": 0.257,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 6,
+   "design": {
+    "nose_folds_1": 1.78,
+    "tip_fold_mm": 70.34,
+    "nose_folds_2": 0.57,
+    "keel_front_mm": 56.6,
+    "keel_rear_mm": 62.3,
+    "winglet_mm": 15.91,
+    "elevator_mm": 12.85,
+    "elevator_deg": 6.66,
+    "dihedral_deg": 19.31
+   },
+   "result": {
+    "valid": true,
+    "distance": 3.750632578371751,
+    "throws": [
+     3.75,
+     3.56,
+     3.87,
+     3.5,
+     4.08
+    ],
+    "log": "nose-dived at 0.7 s",
+    "flight_time": 0.76,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 67.3,
+     "span_mm": 56,
+     "aspect_ratio": 0.47,
+     "static_margin": 0.557,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 7,
+   "design": {
+    "nose_folds_1": 1.84,
+    "tip_fold_mm": 116.72,
+    "nose_folds_2": 0.36,
+    "keel_front_mm": 78.85,
+    "keel_rear_mm": 47.83,
+    "winglet_mm": 0.26,
+    "elevator_mm": 11.65,
+    "elevator_deg": -0.16,
+    "dihedral_deg": 9.72
+   },
+   "result": {
+    "valid": true,
+    "distance": 3.7223119780693064,
+    "throws": [
+     3.72,
+     3.54,
+     3.84,
+     3.48,
+     4.03
+    ],
+    "log": "nose-dived at 0.7 s",
+    "flight_time": 0.78,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 88.6,
+     "span_mm": 112,
+     "aspect_ratio": 1.42,
+     "static_margin": 0.554,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 8,
+   "design": {
+    "nose_folds_1": 1.78,
+    "tip_fold_mm": 115.35,
+    "nose_folds_2": 0.66,
+    "keel_front_mm": 11.76,
+    "keel_rear_mm": 40.81,
+    "winglet_mm": 15.1,
+    "elevator_mm": 22.26,
+    "elevator_deg": 4.17,
+    "dihedral_deg": 2.02
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.068664359242226,
+    "throws": [
+     5.07,
+     4.8,
+     5.24,
+     4.75,
+     5.5
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.03,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 149.8,
+     "span_mm": 110,
+     "aspect_ratio": 0.81,
+     "static_margin": 0.3,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 9,
+   "design": {
+    "nose_folds_1": 1.01,
+    "tip_fold_mm": 85.84,
+    "nose_folds_2": 0.54,
+    "keel_front_mm": 75.1,
+    "keel_rear_mm": 75.73,
+    "winglet_mm": 34.13,
+    "elevator_mm": 10.7,
+    "elevator_deg": -10.42,
+    "dihedral_deg": -2.85
+   },
+   "result": {
+    "valid": true,
+    "distance": 3.6138264933259148,
+    "throws": [
+     3.61,
+     3.42,
+     3.75,
+     3.36,
+     3.94
+    ],
+    "log": "nose-dived at 0.6 s",
+    "flight_time": 0.74,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 38.5,
+     "span_mm": 30,
+     "aspect_ratio": 0.23,
+     "static_margin": 0.416,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 10,
+   "design": {
+    "nose_folds_1": 1.53,
+    "tip_fold_mm": 114.85,
+    "nose_folds_2": 0.46,
+    "keel_front_mm": 15.67,
+    "keel_rear_mm": 47.0,
+    "winglet_mm": 21.21,
+    "elevator_mm": 8.47,
+    "elevator_deg": -2.96,
+    "dihedral_deg": -8.01
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.321568062519719,
+    "throws": [
+     5.32,
+     5.16,
+     5.34,
+     5.06,
+     5.68
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.08,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 153.3,
+     "span_mm": 86,
+     "aspect_ratio": 0.48,
+     "static_margin": 0.14,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 11,
+   "design": {
+    "nose_folds_1": 1.88,
+    "tip_fold_mm": 115.4,
+    "nose_folds_2": 0.03,
+    "keel_front_mm": 72.78,
+    "keel_rear_mm": 14.73,
+    "winglet_mm": 39.29,
+    "elevator_mm": 17.89,
+    "elevator_deg": 19.65,
+    "dihedral_deg": 8.99
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.171468255710373,
+    "throws": [
+     5.17,
+     4.78,
+     5.52,
+     4.87,
+     5.57
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.19,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 112.4,
+     "span_mm": 94,
+     "aspect_ratio": 0.79,
+     "static_margin": 0.345,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 12,
+   "design": {
+    "nose_folds_1": 1.45,
+    "tip_fold_mm": 11.33,
+    "nose_folds_2": 0.98,
+    "keel_front_mm": 25.79,
+    "keel_rear_mm": 68.21,
+    "winglet_mm": 7.88,
+    "elevator_mm": 3.38,
+    "elevator_deg": 6.64,
+    "dihedral_deg": -3.77
+   },
+   "result": {
+    "valid": false,
+    "error": "a nose fold pushes paper past the centre crease",
+    "distance": 0.0
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 13,
+   "design": {
+    "nose_folds_1": 1.57,
+    "tip_fold_mm": 69.38,
+    "nose_folds_2": 0.74,
+    "keel_front_mm": 25.12,
+    "keel_rear_mm": 63.63,
+    "winglet_mm": 3.22,
+    "elevator_mm": 33.02,
+    "elevator_deg": 0.89,
+    "dihedral_deg": 11.49
+   },
+   "result": {
+    "valid": true,
+    "distance": 4.372623604272837,
+    "throws": [
+     4.37,
+     4.18,
+     4.48,
+     4.11,
+     4.72
+    ],
+    "log": "smooth glide",
+    "flight_time": 0.88,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 128.1,
+     "span_mm": 90,
+     "aspect_ratio": 0.63,
+     "static_margin": 0.362,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 14,
+   "design": {
+    "nose_folds_1": 1.99,
+    "tip_fold_mm": 64.22,
+    "nose_folds_2": 0.29,
+    "keel_front_mm": 37.71,
+    "keel_rear_mm": 18.8,
+    "winglet_mm": 36.08,
+    "elevator_mm": 20.5,
+    "elevator_deg": 8.14,
+    "dihedral_deg": -8.39
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.372226574443658,
+    "throws": [
+     5.37,
+     5.08,
+     5.56,
+     5.05,
+     5.8
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.13,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 160.3,
+     "span_mm": 100,
+     "aspect_ratio": 0.62,
+     "static_margin": 0.294,
+     "roll_stable": true
+    }
+   },
+   "best": 6.136314273447805
+  },
+  {
+   "i": 15,
+   "design": {
+    "nose_folds_1": 1.31,
+    "tip_fold_mm": 112.45,
+    "nose_folds_2": 0.32,
+    "keel_front_mm": 61.13,
+    "keel_rear_mm": 25.44,
+    "winglet_mm": 29.9,
+    "elevator_mm": 14.08,
+    "elevator_deg": 7.72,
+    "dihedral_deg": 11.31
+   },
+   "result": {
+    "valid": true,
+    "distance": 7.308721947209432,
+    "throws": [
+     7.31,
+     6.85,
+     7.49,
+     6.94,
+     7.78
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.72,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 179.1,
+     "span_mm": 96,
+     "aspect_ratio": 0.51,
+     "static_margin": 0.086,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  },
+  {
+   "i": 16,
+   "design": {
+    "nose_folds_1": 1.54,
+    "tip_fold_mm": 49.54,
+    "nose_folds_2": 0.09,
+    "keel_front_mm": 70.23,
+    "keel_rear_mm": 35.95,
+    "winglet_mm": 27.99,
+    "elevator_mm": 11.63,
+    "elevator_deg": 1.8,
+    "dihedral_deg": 4.8
+   },
+   "result": {
+    "valid": true,
+    "distance": 3.899013550560165,
+    "throws": [
+     3.9,
+     3.72,
+     4.01,
+     3.65,
+     4.22
+    ],
+    "log": "nose-dived at 0.7 s",
+    "flight_time": 0.8,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 97.7,
+     "span_mm": 80,
+     "aspect_ratio": 0.65,
+     "static_margin": 0.541,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  },
+  {
+   "i": 17,
+   "design": {
+    "nose_folds_1": 1.45,
+    "tip_fold_mm": 12.3,
+    "nose_folds_2": 0.12,
+    "keel_front_mm": 18.68,
+    "keel_rear_mm": 67.74,
+    "winglet_mm": 10.16,
+    "elevator_mm": 4.68,
+    "elevator_deg": 13.64,
+    "dihedral_deg": -7.95
+   },
+   "result": {
+    "valid": true,
+    "distance": 7.297835555126466,
+    "throws": [
+     7.3,
+     7.41,
+     6.7,
+     7.13,
+     7.53
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.63,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 258.7,
+     "span_mm": 118,
+     "aspect_ratio": 0.54,
+     "static_margin": 0.068,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  },
+  {
+   "i": 18,
+   "design": {
+    "nose_folds_1": 1.97,
+    "tip_fold_mm": 83.99,
+    "nose_folds_2": 0.83,
+    "keel_front_mm": 42.52,
+    "keel_rear_mm": 27.36,
+    "winglet_mm": 29.57,
+    "elevator_mm": 12.95,
+    "elevator_deg": -5.29,
+    "dihedral_deg": 20.02
+   },
+   "result": {
+    "valid": true,
+    "distance": 4.135781529125237,
+    "throws": [
+     4.14,
+     3.97,
+     4.22,
+     3.9,
+     4.44
+    ],
+    "log": "nose-dived at 0.8 s",
+    "flight_time": 0.86,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 137.0,
+     "span_mm": 96,
+     "aspect_ratio": 0.67,
+     "static_margin": 0.342,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  },
+  {
+   "i": 19,
+   "design": {
+    "nose_folds_1": 1.41,
+    "tip_fold_mm": 63.2,
+    "nose_folds_2": 0.09,
+    "keel_front_mm": 62.34,
+    "keel_rear_mm": 41.64,
+    "winglet_mm": 4.12,
+    "elevator_mm": 20.58,
+    "elevator_deg": 2.38,
+    "dihedral_deg": 19.31
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.309834244035596,
+    "throws": [
+     6.31,
+     6.09,
+     6.31,
+     6.01,
+     6.71
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.22,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 228.5,
+     "span_mm": 118,
+     "aspect_ratio": 0.61,
+     "static_margin": 0.159,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  },
+  {
+   "i": 20,
+   "design": {
+    "nose_folds_1": 1.38,
+    "tip_fold_mm": 49.31,
+    "nose_folds_2": 0.26,
+    "keel_front_mm": 48.16,
+    "keel_rear_mm": 77.26,
+    "winglet_mm": 12.84,
+    "elevator_mm": 35.65,
+    "elevator_deg": 24.9,
+    "dihedral_deg": 14.61
+   },
+   "result": {
+    "valid": true,
+    "distance": 1.6831676813944378,
+    "throws": [
+     1.68,
+     1.43,
+     1.93,
+     1.56,
+     1.85
+    ],
+    "log": "stalled at 0.4 s, nose-dived at 0.7 s, looped",
+    "flight_time": 1.4,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 162.1,
+     "span_mm": 74,
+     "aspect_ratio": 0.34,
+     "static_margin": 0.113,
+     "roll_stable": true
+    }
+   },
+   "best": 7.308721947209432
+  }
+ ],
+ "best": 7.308721947209432
+}

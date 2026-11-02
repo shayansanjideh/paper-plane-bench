@@ -1,0 +1,769 @@
+{
+ "backend": "llm",
+ "model": "gpt-6-luna",
+ "run": 1,
+ "blind": false,
+ "attempts": [
+  {
+   "i": 1,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 30,
+    "winglet_mm": 10,
+    "elevator_mm": 0,
+    "elevator_deg": 0,
+    "dihedral_deg": 5,
+    "rationale": "I\u2019ll start with a simple, symmetric dart and neutral control surfaces to establish a baseline."
+   },
+   "result": {
+    "valid": true,
+    "distance": 7.21298118341383,
+    "throws": [
+     7.4,
+     7.21,
+     7.2,
+     7.14,
+     7.74
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.89,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 304.9,
+     "span_mm": 130,
+     "aspect_ratio": 0.55,
+     "static_margin": 0.103,
+     "roll_stable": true
+    }
+   },
+   "best": 7.21298118341383,
+   "secs": 4.6
+  },
+  {
+   "i": 2,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 30,
+    "winglet_mm": 10,
+    "elevator_mm": 0,
+    "elevator_deg": 0,
+    "dihedral_deg": 10,
+    "rationale": "I\u2019m increasing dihedral slightly to improve roll stability after the smooth baseline glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 7.20705213073364,
+    "throws": [
+     7.4,
+     7.21,
+     7.18,
+     7.13,
+     7.73
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.88,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 304.9,
+     "span_mm": 130,
+     "aspect_ratio": 0.55,
+     "static_margin": 0.103,
+     "roll_stable": true
+    }
+   },
+   "best": 7.21298118341383,
+   "secs": 4.9
+  },
+  {
+   "i": 3,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 0,
+    "elevator_deg": 0,
+    "dihedral_deg": 10,
+    "rationale": "I\u2019m reducing the keel depth to give the wings more area for a longer glide at this launch speed."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.24705983559262,
+    "throws": [
+     8.49,
+     8.25,
+     8.19,
+     8.23,
+     8.82
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.37,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 8.24705983559262,
+   "secs": 15.9
+  },
+  {
+   "i": 4,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 5,
+    "elevator_deg": 4,
+    "dihedral_deg": 10,
+    "rationale": "The wider-wing design glided smoothly, so I\u2019m testing a small up-elevator bend to extend its flight."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.27261189609315,
+    "throws": [
+     8.35,
+     8.27,
+     7.86,
+     8.13,
+     8.62
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.31,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 8.27261189609315,
+   "secs": 5.9
+  },
+  {
+   "i": 5,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 8,
+    "elevator_deg": 7,
+    "dihedral_deg": 10,
+    "rationale": "The small up-elevator barely changed the smooth glide, so I\u2019m testing a slightly larger bend for more lift."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.458786599525695,
+    "throws": [
+     8.58,
+     8.46,
+     8.08,
+     8.36,
+     8.88
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.4,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 8.458786599525695,
+   "secs": 4.6
+  },
+  {
+   "i": 6,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 10,
+    "elevator_deg": 9,
+    "dihedral_deg": 10,
+    "rationale": "The larger up-elevator improved the smooth glide, so I\u2019m increasing it slightly to build on that gain."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.68801867749716,
+    "throws": [
+     8.95,
+     8.67,
+     8.56,
+     8.69,
+     9.28
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.33,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 8.68801867749716,
+   "secs": 5.8
+  },
+  {
+   "i": 7,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 12,
+    "elevator_deg": 11,
+    "dihedral_deg": 10,
+    "rationale": "The larger up-elevator improved distance, so I\u2019m increasing it modestly to test whether the glide can improve further."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.313431448916235,
+    "throws": [
+     9.35,
+     8.8,
+     9.31,
+     9.06,
+     9.73
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.31,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.313431448916235,
+   "secs": 4.6
+  },
+  {
+   "i": 8,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 13,
+    "dihedral_deg": 10,
+    "rationale": "The stronger up-elevator improved distance, so I\u2019m increasing it a little more while keeping the stable wing setup."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.407229724802999,
+    "throws": [
+     9.41,
+     8.61,
+     9.81,
+     9.12,
+     9.76
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.94,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.407229724802999,
+   "secs": 5.1
+  },
+  {
+   "i": 9,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 16,
+    "elevator_deg": 15,
+    "dihedral_deg": 10,
+    "rationale": "The glide remains smooth as up-elevator improves distance, so I\u2019m testing a modest further increase."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.680738530739708,
+    "throws": [
+     8.68,
+     7.65,
+     9.3,
+     8.47,
+     8.91
+    ],
+    "log": "smooth glide",
+    "flight_time": 3.11,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.407229724802999,
+   "secs": 4.8
+  },
+  {
+   "i": 10,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 13,
+    "dihedral_deg": 10,
+    "rationale": "The 15-degree elevator flew longer but covered less ground, so I\u2019m returning to the best-performing 13-degree setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.407229724802999,
+    "throws": [
+     9.41,
+     8.61,
+     9.81,
+     9.12,
+     9.76
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.94,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.407229724802999,
+   "secs": 5.7
+  },
+  {
+   "i": 11,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 15,
+    "elevator_mm": 14,
+    "elevator_deg": 13,
+    "dihedral_deg": 10,
+    "rationale": "The 13-degree elevator remains the best setting, so I\u2019m testing a small winglet increase for added stability."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.291092911820728,
+    "throws": [
+     9.29,
+     8.46,
+     9.72,
+     9.0,
+     9.65
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.92,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 366.8,
+     "span_mm": 150,
+     "aspect_ratio": 0.61,
+     "static_margin": 0.078,
+     "roll_stable": true
+    }
+   },
+   "best": 9.407229724802999,
+   "secs": 4.8
+  },
+  {
+   "i": 12,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 13,
+    "dihedral_deg": 5,
+    "rationale": "The larger winglets reduced distance and wing area, so I\u2019m restoring the 10 mm winglets and testing a slightly lower dihedral."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.404848654400945,
+    "throws": [
+     9.4,
+     8.61,
+     9.81,
+     9.12,
+     9.76
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.94,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.407229724802999,
+   "secs": 4.1
+  },
+  {
+   "i": 13,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 12,
+    "dihedral_deg": 10,
+    "rationale": "The 13-degree setting is still best, so I\u2019m testing a slightly smaller elevator bend to see if it improves the glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.483489010800792,
+    "throws": [
+     9.48,
+     8.7,
+     9.84,
+     9.18,
+     9.86
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.9,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.483489010800792,
+   "secs": 6.5
+  },
+  {
+   "i": 14,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 12,
+    "elevator_deg": 10,
+    "dihedral_deg": 10,
+    "rationale": "The 12-degree elevator gave the best distance, so I\u2019m testing a small reduction to refine the glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.222025768957133,
+    "throws": [
+     9.32,
+     8.8,
+     9.22,
+     9.02,
+     9.7
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.25,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.483489010800792,
+   "secs": 5.0
+  },
+  {
+   "i": 15,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 11,
+    "dihedral_deg": 10,
+    "rationale": "The 14 mm strip at 12 degrees gave the best distance, so I\u2019m testing a one-degree reduction to refine the elevator setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.528303288844457,
+    "throws": [
+     9.53,
+     8.77,
+     9.82,
+     9.21,
+     9.91
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.85,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.528303288844457,
+   "secs": 7.1
+  },
+  {
+   "i": 16,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 10,
+    "dihedral_deg": 10,
+    "rationale": "The 11-degree elevator setting set a new best, so I\u2019m testing one degree less to refine the glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.538174519325038,
+    "throws": [
+     9.54,
+     8.81,
+     9.76,
+     9.21,
+     9.94
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.79,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.538174519325038,
+   "secs": 6.0
+  },
+  {
+   "i": 17,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 9,
+    "dihedral_deg": 10,
+    "rationale": "The 10-degree elevator edged out 11 degrees, so I\u2019m testing one degree less while keeping the best wing setup."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.515910109458344,
+    "throws": [
+     9.52,
+     8.83,
+     9.66,
+     9.19,
+     9.93
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.72,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.538174519325038,
+   "secs": 5.6
+  },
+  {
+   "i": 18,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 11,
+    "dihedral_deg": 10,
+    "rationale": "The 10-degree elevator remains best, so I\u2019m keeping the proven wing setup and testing one degree more."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.528303288844457,
+    "throws": [
+     9.53,
+     8.77,
+     9.82,
+     9.21,
+     9.91
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.85,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.538174519325038,
+   "secs": 4.1
+  },
+  {
+   "i": 19,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 10,
+    "dihedral_deg": 10,
+    "rationale": "The 10-degree elevator gave the best result, so I\u2019m keeping that proven setup for another consistent glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.538174519325038,
+    "throws": [
+     9.54,
+     8.81,
+     9.76,
+     9.21,
+     9.94
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.79,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.538174519325038,
+   "secs": 4.7
+  },
+  {
+   "i": 20,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 10,
+    "dihedral_deg": 10,
+    "rationale": "The 14 mm elevator strip at 10 degrees gave the best distance, so I\u2019m repeating that setup for the final attempt."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.538174519325038,
+    "throws": [
+     9.54,
+     8.81,
+     9.76,
+     9.21,
+     9.94
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.79,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 9.538174519325038,
+   "secs": 5.2
+  }
+ ],
+ "best": 9.538174519325038
+}

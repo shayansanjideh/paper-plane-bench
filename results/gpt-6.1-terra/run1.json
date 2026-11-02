@@ -1,0 +1,769 @@
+{
+ "backend": "llm",
+ "model": "gpt-6.1-terra",
+ "run": 1,
+ "blind": false,
+ "attempts": [
+  {
+   "i": 1,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 20,
+    "winglet_mm": 5,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 5,
+    "rationale": "Start with a moderately broad, stable dart to establish a baseline."
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.257387738962772,
+    "throws": [
+     5.27,
+     5.14,
+     5.26,
+     5.02,
+     5.61
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.0,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 243.4,
+     "span_mm": 160,
+     "aspect_ratio": 1.05,
+     "static_margin": 0.288,
+     "roll_stable": true
+    }
+   },
+   "best": 5.257387738962772,
+   "secs": 4.0
+  },
+  {
+   "i": 2,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 5,
+    "rationale": "Test whether a basic nose and broader wings improve glide distance."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.602093437792869,
+    "throws": [
+     8.81,
+     8.6,
+     8.41,
+     8.56,
+     9.13
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.46,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.602093437792869,
+   "secs": 5.5
+  },
+  {
+   "i": 3,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 40,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 5,
+    "rationale": "Test whether folding back the tip improves the broad-wing design."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.434266168831725,
+    "throws": [
+     8.63,
+     8.43,
+     8.25,
+     8.37,
+     8.95
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.37,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 420.4,
+     "span_mm": 180,
+     "aspect_ratio": 0.77,
+     "static_margin": 0.098,
+     "roll_stable": true
+    }
+   },
+   "best": 8.602093437792869,
+   "secs": 5.9
+  },
+  {
+   "i": 4,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 0,
+    "dihedral_deg": 5,
+    "rationale": "Test whether less elevator deflection improves the broad-wing glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.305247222237636,
+    "throws": [
+     8.52,
+     8.31,
+     8.21,
+     8.27,
+     8.84
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.37,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.602093437792869,
+   "secs": 4.1
+  },
+  {
+   "i": 5,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 10,
+    "dihedral_deg": 5,
+    "rationale": "Test whether more up elevator extends the broad-wing glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.800345622560613,
+    "throws": [
+     9.05,
+     8.79,
+     8.66,
+     8.8,
+     9.38
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.36,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.800345622560613,
+   "secs": 5.3
+  },
+  {
+   "i": 6,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 20,
+    "dihedral_deg": 5,
+    "rationale": "Test a larger up-elevator angle to see whether the distance gain continues."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.820535886708111,
+    "throws": [
+     8.96,
+     8.57,
+     8.82,
+     8.75,
+     9.24
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.32,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.820535886708111,
+   "secs": 7.2
+  },
+  {
+   "i": 7,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 20,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test a wider elevator strip to explore stronger pitch control."
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.678081202579096,
+    "throws": [
+     5.69,
+     4.7,
+     6.48,
+     5.68,
+     5.64
+    ],
+    "log": "stalled at 1.3 s, nose-dived at 1.6 s",
+    "flight_time": 3.24,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.820535886708111,
+   "secs": 5.7
+  },
+  {
+   "i": 8,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 20,
+    "dihedral_deg": 0,
+    "rationale": "Test whether reducing dihedral improves distance with the best elevator setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.815423657477186,
+    "throws": [
+     8.95,
+     8.57,
+     8.82,
+     8.74,
+     9.23
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.32,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.820535886708111,
+   "secs": 4.2
+  },
+  {
+   "i": 9,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 10,
+    "elevator_deg": 20,
+    "dihedral_deg": 5,
+    "rationale": "Test whether small winglets improve the best broad-wing design."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.75507514758882,
+    "throws": [
+     8.87,
+     8.42,
+     8.76,
+     8.65,
+     9.15
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.29,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 387.2,
+     "span_mm": 160,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.083,
+     "roll_stable": true
+    }
+   },
+   "best": 8.820535886708111,
+   "secs": 6.5
+  },
+  {
+   "i": 10,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test an intermediate elevator angle to locate the best pitch setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.89665004967691,
+    "throws": [
+     9.14,
+     8.81,
+     8.85,
+     8.9,
+     9.45
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.51,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 426.6,
+     "span_mm": 180,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.89665004967691,
+   "secs": 5.1
+  },
+  {
+   "i": 11,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 30,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test a tapered wing by deepening the rear keel while keeping the best pitch setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.894972392902412,
+    "throws": [
+     9.15,
+     8.77,
+     8.89,
+     8.88,
+     9.48
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.13,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 382.1,
+     "span_mm": 170,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.086,
+     "roll_stable": true
+    }
+   },
+   "best": 8.89665004967691,
+   "secs": 6.5
+  },
+  {
+   "i": 12,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 15,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test the opposite wing taper to see how shifting wing area rearward affects glide."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.089885788950273,
+    "throws": [
+     8.26,
+     8.09,
+     7.96,
+     8.02,
+     8.59
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.24,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 388.4,
+     "span_mm": 180,
+     "aspect_ratio": 0.83,
+     "static_margin": 0.122,
+     "roll_stable": true
+    }
+   },
+   "best": 8.89665004967691,
+   "secs": 6.5
+  },
+  {
+   "i": 13,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 45,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test a deeper rear keel to explore whether stronger taper improves distance."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.936588531566679,
+    "throws": [
+     9.13,
+     8.69,
+     8.94,
+     8.84,
+     9.49
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.11,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 337.8,
+     "span_mm": 158,
+     "aspect_ratio": 0.74,
+     "static_margin": 0.079,
+     "roll_stable": true
+    }
+   },
+   "best": 8.936588531566679,
+   "secs": 4.6
+  },
+  {
+   "i": 14,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 60,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test a deeper rear keel to see whether the taper continues to improve distance."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.055430508154101,
+    "throws": [
+     9.13,
+     8.57,
+     9.06,
+     8.82,
+     9.53
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.12,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 293.4,
+     "span_mm": 146,
+     "aspect_ratio": 0.73,
+     "static_margin": 0.068,
+     "roll_stable": true
+    }
+   },
+   "best": 9.055430508154101,
+   "secs": 6.9
+  },
+  {
+   "i": 15,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 80,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 15,
+    "dihedral_deg": 5,
+    "rationale": "Test the maximum rear keel depth to see whether the distance gain from taper continues."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.124098850299848,
+    "throws": [
+     9.12,
+     8.16,
+     9.53,
+     8.77,
+     9.55
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.62,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 234.2,
+     "span_mm": 130,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.047,
+     "roll_stable": true
+    }
+   },
+   "best": 9.124098850299848,
+   "secs": 4.6
+  },
+  {
+   "i": 16,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 80,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 10,
+    "dihedral_deg": 5,
+    "rationale": "Test a lower elevator angle on the strongly tapered wing to refine its pitch."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.200573779774587,
+    "throws": [
+     9.2,
+     8.47,
+     9.21,
+     8.83,
+     9.68
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.4,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 234.2,
+     "span_mm": 130,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.047,
+     "roll_stable": true
+    }
+   },
+   "best": 9.200573779774587,
+   "secs": 4.0
+  },
+  {
+   "i": 17,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 80,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 5,
+    "dihedral_deg": 5,
+    "rationale": "Test less up elevator to refine pitch on the strongly tapered wing."
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.606520779510905,
+    "throws": [
+     8.87,
+     8.38,
+     8.61,
+     8.52,
+     9.3
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.82,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 234.2,
+     "span_mm": 130,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.047,
+     "roll_stable": true
+    }
+   },
+   "best": 9.200573779774587,
+   "secs": 4.7
+  },
+  {
+   "i": 18,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 80,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 12,
+    "dihedral_deg": 5,
+    "rationale": "Test an intermediate elevator angle on the best tapered design."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.235200048315855,
+    "throws": [
+     9.24,
+     8.41,
+     9.4,
+     8.86,
+     9.71
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.49,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 234.2,
+     "span_mm": 130,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.047,
+     "roll_stable": true
+    }
+   },
+   "best": 9.235200048315855,
+   "secs": 4.9
+  },
+  {
+   "i": 19,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 70,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 12,
+    "dihedral_deg": 5,
+    "rationale": "Test a slightly shallower rear keel with the best elevator setting to refine the wing taper."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.038202168874326,
+    "throws": [
+     9.13,
+     8.55,
+     9.04,
+     8.79,
+     9.57
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.04,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 263.8,
+     "span_mm": 138,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.059,
+     "roll_stable": true
+    }
+   },
+   "best": 9.235200048315855,
+   "secs": 6.1
+  },
+  {
+   "i": 20,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 15,
+    "keel_rear_mm": 80,
+    "winglet_mm": 0,
+    "elevator_mm": 10,
+    "elevator_deg": 13,
+    "dihedral_deg": 5,
+    "rationale": "Test a small elevator adjustment near the best-performing setting."
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.221777540396438,
+    "throws": [
+     9.22,
+     8.35,
+     9.47,
+     8.86,
+     9.69
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.54,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 234.2,
+     "span_mm": 130,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.047,
+     "roll_stable": true
+    }
+   },
+   "best": 9.235200048315855,
+   "secs": 4.6
+  }
+ ],
+ "best": 9.235200048315855
+}

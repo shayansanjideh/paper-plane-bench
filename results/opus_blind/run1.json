@@ -1,0 +1,737 @@
+{
+ "backend": "llm",
+ "model": "opus_blind",
+ "run": 1,
+ "blind": true,
+ "attempts": [
+  {
+   "i": 1,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 25,
+    "keel_rear_mm": 20,
+    "winglet_mm": 10,
+    "elevator_mm": 15,
+    "elevator_deg": 6,
+    "dihedral_deg": 5,
+    "rationale": "Nakamura-style lock with forward CG, mild up-elevator, small dihedral and winglets, chosen for a stable, efficient glide"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.078174011765021,
+    "throws": [
+     6.08,
+     5.85,
+     6.12,
+     5.78,
+     6.47
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.32,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 263.7,
+     "span_mm": 150,
+     "aspect_ratio": 0.85,
+     "static_margin": 0.228,
+     "roll_stable": true
+    }
+   },
+   "best": 6.078174011765021,
+   "secs": 9.1
+  },
+  {
+   "i": 2,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 25,
+    "winglet_mm": 0,
+    "elevator_mm": 15,
+    "elevator_deg": 8,
+    "dihedral_deg": 5,
+    "rationale": "Hedge with a classic dart (2 nose folds, sharp tip), more up-elevator to stop nose-diving, mild dihedral for roll stability"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.25491784144099,
+    "throws": [
+     5.25,
+     5.03,
+     5.34,
+     4.97,
+     5.64
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.09,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 215.1,
+     "span_mm": 160,
+     "aspect_ratio": 1.19,
+     "static_margin": 0.353,
+     "roll_stable": true
+    }
+   },
+   "best": 6.078174011765021,
+   "secs": 7.0
+  },
+  {
+   "i": 3,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 40,
+    "nose_folds_2": 0,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 15,
+    "winglet_mm": 12,
+    "elevator_mm": 12,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Broad-wing glider: basic nose with moderate tip fold for forward CG, minimum keel for max wing area, gentle elevator trim"
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.262778544272264,
+    "throws": [
+     8.53,
+     8.25,
+     8.26,
+     8.26,
+     8.89
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.83,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 368.0,
+     "span_mm": 156,
+     "aspect_ratio": 0.66,
+     "static_margin": 0.093,
+     "roll_stable": true
+    }
+   },
+   "best": 8.262778544272264,
+   "secs": 8.7
+  },
+  {
+   "i": 4,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 50,
+    "nose_folds_2": 1,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 18,
+    "winglet_mm": 8,
+    "elevator_mm": 10,
+    "elevator_deg": 3,
+    "dihedral_deg": 3,
+    "rationale": "Nakamura variant with lighter trim (smaller tip fold, 3 deg elevator) for a flatter, faster glide in case attempt 1 was over-trimmed"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.944494339401201,
+    "throws": [
+     6.02,
+     5.9,
+     5.94,
+     5.78,
+     6.35
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.17,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 297.0,
+     "span_mm": 158,
+     "aspect_ratio": 0.84,
+     "static_margin": 0.201,
+     "roll_stable": true
+    }
+   },
+   "best": 8.262778544272264,
+   "secs": 7.2
+  },
+  {
+   "i": 5,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 0,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 25,
+    "winglet_mm": 8,
+    "elevator_mm": 12,
+    "elevator_deg": 4,
+    "dihedral_deg": 7,
+    "rationale": "Dart variant with less up-elevator (4 deg) to avoid stalling, plus small winglets and more dihedral for stability"
+   },
+   "result": {
+    "valid": true,
+    "distance": 4.840220392825289,
+    "throws": [
+     4.84,
+     4.68,
+     4.88,
+     4.59,
+     5.18
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.0,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 207.2,
+     "span_mm": 144,
+     "aspect_ratio": 1.0,
+     "static_margin": 0.355,
+     "roll_stable": true
+    }
+   },
+   "best": 8.262778544272264,
+   "secs": 6.1
+  },
+  {
+   "i": 6,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 30,
+    "nose_folds_2": 1,
+    "keel_front_mm": 25,
+    "keel_rear_mm": 20,
+    "winglet_mm": 8,
+    "elevator_mm": 12,
+    "elevator_deg": 6,
+    "dihedral_deg": 5,
+    "rationale": "Hybrid: dart folds plus short tip fold and lock fold for a forward CG with low drag, moderate elevator to balance it"
+   },
+   "result": {
+    "valid": false,
+    "error": "a nose fold pushes paper past the centre crease",
+    "distance": 0.0
+   },
+   "best": 8.262778544272264,
+   "secs": 5.5
+  },
+  {
+   "i": 7,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 70,
+    "nose_folds_2": 0,
+    "keel_front_mm": 18,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 18,
+    "elevator_deg": 8,
+    "dihedral_deg": 6,
+    "rationale": "Broad glider with bigger tip fold for strong forward CG, balanced by a larger 8 deg elevator for a slow flat glide"
+   },
+   "result": {
+    "valid": true,
+    "distance": 9.196139097452726,
+    "throws": [
+     9.2,
+     8.47,
+     9.64,
+     8.85,
+     9.63
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.6,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 355.5,
+     "span_mm": 160,
+     "aspect_ratio": 0.72,
+     "static_margin": 0.106,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 5.4
+  },
+  {
+   "i": 8,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 80,
+    "nose_folds_2": 1,
+    "keel_front_mm": 22,
+    "keel_rear_mm": 18,
+    "winglet_mm": 0,
+    "elevator_mm": 15,
+    "elevator_deg": 8,
+    "dihedral_deg": 8,
+    "rationale": "Nakamura with deeper tip fold and stronger elevator, no winglets (less drag), extra dihedral for roll stability"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.240647842765667,
+    "throws": [
+     6.24,
+     5.92,
+     6.4,
+     5.92,
+     6.68
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.37,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 263.4,
+     "span_mm": 174,
+     "aspect_ratio": 1.15,
+     "static_margin": 0.249,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.9
+  },
+  {
+   "i": 9,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 55,
+    "nose_folds_2": 1,
+    "keel_front_mm": 22,
+    "keel_rear_mm": 20,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 6,
+    "dihedral_deg": 5,
+    "rationale": "Mid-range Nakamura trim (55 mm tip, 6 deg elevator, 5 deg dihedral) chosen to fly consistently across throw variations"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.210662548670307,
+    "throws": [
+     6.21,
+     6.0,
+     6.21,
+     5.92,
+     6.58
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.35,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 274.5,
+     "span_mm": 150,
+     "aspect_ratio": 0.82,
+     "static_margin": 0.212,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 5.4
+  },
+  {
+   "i": 10,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 0,
+    "nose_folds_2": 1,
+    "keel_front_mm": 25,
+    "keel_rear_mm": 20,
+    "winglet_mm": 10,
+    "elevator_mm": 12,
+    "elevator_deg": 5,
+    "dihedral_deg": 5,
+    "rationale": "Sharp nose with a lock fold and no tip fold for a forward CG with little drag, moderate elevator trim"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.155011616545473,
+    "throws": [
+     5.16,
+     4.99,
+     5.17,
+     4.9,
+     5.49
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.07,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 228.0,
+     "span_mm": 150,
+     "aspect_ratio": 0.99,
+     "static_margin": 0.312,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.7
+  },
+  {
+   "i": 11,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 100,
+    "nose_folds_2": 0,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 15,
+    "winglet_mm": 15,
+    "elevator_mm": 20,
+    "elevator_deg": 10,
+    "dihedral_deg": 6,
+    "rationale": "Heavy-nose broad glider (100 mm tip fold) with strong elevator and taller winglets, to hold momentum and resist stalls"
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.899057780378419,
+    "throws": [
+     8.9,
+     8.15,
+     9.5,
+     8.62,
+     9.23
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.69,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 295.6,
+     "span_mm": 150,
+     "aspect_ratio": 0.76,
+     "static_margin": 0.113,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 5.1
+  },
+  {
+   "i": 12,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 18,
+    "winglet_mm": 5,
+    "elevator_mm": 12,
+    "elevator_deg": 5,
+    "dihedral_deg": 12,
+    "rationale": "Nakamura with high 12 deg dihedral and light trim for strong roll stability across varied throws"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.940088624921939,
+    "throws": [
+     5.97,
+     5.81,
+     5.94,
+     5.7,
+     6.32
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.17,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 289.5,
+     "span_mm": 164,
+     "aspect_ratio": 0.93,
+     "static_margin": 0.224,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.9
+  },
+  {
+   "i": 13,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 35,
+    "keel_rear_mm": 30,
+    "winglet_mm": 8,
+    "elevator_mm": 14,
+    "elevator_deg": 6,
+    "dihedral_deg": 6,
+    "rationale": "Nakamura with deeper keel (35/30 mm) for directional stability and a lower centre of gravity, moderate trim"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.522003381544121,
+    "throws": [
+     5.52,
+     5.32,
+     5.58,
+     5.24,
+     5.9
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.16,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 227.7,
+     "span_mm": 134,
+     "aspect_ratio": 0.79,
+     "static_margin": 0.254,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.6
+  },
+  {
+   "i": 14,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 50,
+    "nose_folds_2": 1,
+    "keel_front_mm": 22,
+    "keel_rear_mm": 18,
+    "winglet_mm": 10,
+    "elevator_mm": 15,
+    "elevator_deg": 8,
+    "dihedral_deg": 6,
+    "rationale": "Dart nose with a long tip fold and lock fold for a heavy, compact, low-drag nose, firm elevator to hold it level"
+   },
+   "result": {
+    "valid": false,
+    "error": "a nose fold pushes paper past the centre crease",
+    "distance": 0.0
+   },
+   "best": 9.196139097452726,
+   "secs": 4.4
+  },
+  {
+   "i": 15,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 45,
+    "nose_folds_2": 1,
+    "keel_front_mm": 20,
+    "keel_rear_mm": 18,
+    "winglet_mm": 10,
+    "elevator_mm": 10,
+    "elevator_deg": 2,
+    "dihedral_deg": 5,
+    "rationale": "Nakamura with very light trim (2 deg elevator) to test whether a flatter, faster glide carries further"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.038019929118015,
+    "throws": [
+     6.13,
+     6.01,
+     6.04,
+     5.89,
+     6.46
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.19,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 298.7,
+     "span_mm": 154,
+     "aspect_ratio": 0.79,
+     "static_margin": 0.189,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.7
+  },
+  {
+   "i": 16,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 55,
+    "nose_folds_2": 0,
+    "keel_front_mm": 18,
+    "keel_rear_mm": 15,
+    "winglet_mm": 12,
+    "elevator_mm": 15,
+    "elevator_deg": 6,
+    "dihedral_deg": 6,
+    "rationale": "Broad glider midway between attempts 3 and 7 (55 mm tip, 6 deg elevator) to cover the middle of that range"
+   },
+   "result": {
+    "valid": true,
+    "distance": 8.809229933435915,
+    "throws": [
+     8.83,
+     8.37,
+     8.81,
+     8.51,
+     9.25
+    ],
+    "log": "smooth glide",
+    "flight_time": 2.05,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 360.9,
+     "span_mm": 156,
+     "aspect_ratio": 0.67,
+     "static_margin": 0.097,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 5.7
+  },
+  {
+   "i": 17,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 30,
+    "keel_rear_mm": 15,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 5,
+    "dihedral_deg": 6,
+    "rationale": "Nakamura with a keel that tapers from 30 mm at the nose to 15 mm at the tail, for a low forward CG with full outer wing"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.87308439334949,
+    "throws": [
+     5.87,
+     5.68,
+     5.89,
+     5.6,
+     6.24
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.26,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 274.3,
+     "span_mm": 160,
+     "aspect_ratio": 0.93,
+     "static_margin": 0.241,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.6
+  },
+  {
+   "i": 18,
+   "design": {
+    "nose_folds_1": 2,
+    "tip_fold_mm": 25,
+    "nose_folds_2": 0,
+    "keel_front_mm": 25,
+    "keel_rear_mm": 20,
+    "winglet_mm": 10,
+    "elevator_mm": 14,
+    "elevator_deg": 6,
+    "dihedral_deg": 6,
+    "rationale": "Dart with a short 25 mm tip fold and no lock fold for a forward CG and low drag, balanced by moderate elevator"
+   },
+   "result": {
+    "valid": true,
+    "distance": 5.290174997624091,
+    "throws": [
+     5.29,
+     5.1,
+     5.33,
+     5.02,
+     5.65
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.1,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 227.2,
+     "span_mm": 150,
+     "aspect_ratio": 0.99,
+     "static_margin": 0.313,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.4
+  },
+  {
+   "i": 19,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 40,
+    "nose_folds_2": 1,
+    "keel_front_mm": 18,
+    "keel_rear_mm": 15,
+    "winglet_mm": 14,
+    "elevator_mm": 14,
+    "elevator_deg": 5,
+    "dihedral_deg": 7,
+    "rationale": "Locked-nose broad glider: 40 mm tip fold, lock fold, minimal keel and 14 mm winglets for large wing area with forward CG and steady roll"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.726914506762103,
+    "throws": [
+     6.8,
+     6.6,
+     6.73,
+     6.52,
+     7.17
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.37,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 306.5,
+     "span_mm": 152,
+     "aspect_ratio": 0.75,
+     "static_margin": 0.171,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 4.8
+  },
+  {
+   "i": 20,
+   "design": {
+    "nose_folds_1": 1,
+    "tip_fold_mm": 60,
+    "nose_folds_2": 1,
+    "keel_front_mm": 22,
+    "keel_rear_mm": 18,
+    "winglet_mm": 10,
+    "elevator_mm": 15,
+    "elevator_deg": 6,
+    "dihedral_deg": 6,
+    "rationale": "Best-estimate Nakamura with middle values for every setting (60 mm tip, 6 deg elevator, 6 deg dihedral) for a reliable median glide"
+   },
+   "result": {
+    "valid": true,
+    "distance": 6.215597979805013,
+    "throws": [
+     6.22,
+     5.98,
+     6.25,
+     5.92,
+     6.61
+    ],
+    "log": "smooth glide",
+    "flight_time": 1.36,
+    "stats": {
+     "mass_g": 4.99,
+     "wing_area_cm2": 273.4,
+     "span_mm": 154,
+     "aspect_ratio": 0.87,
+     "static_margin": 0.221,
+     "roll_stable": true
+    }
+   },
+   "best": 9.196139097452726,
+   "secs": 5.8
+  }
+ ],
+ "best": 9.196139097452726
+}
